@@ -9,5 +9,6 @@ defmodule EvercamMinimalWeb.Router do
     pipe_through :api
 
     get "/test", TestController, :test
+    get "/testing", TestController, :testing
   end
 end

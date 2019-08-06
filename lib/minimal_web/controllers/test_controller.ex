@@ -4,4 +4,8 @@ defmodule EvercamMinimalWeb.TestController do
   def test(conn, _params) do
     json(conn, %{message: "Hello I am a test"})
   end
+
+  def testing(conn, _params) do
+    json(conn, %{message: "Hello I am a testing"})
+  end
 end
